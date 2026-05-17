@@ -1,6 +1,7 @@
-groq==0.9.0
+groq==0.13.0
 python-telegram-bot==21.10
 python-dotenv==1.0.0
 requests==2.31.0
 beautifulsoup4==4.12.3
 aiohttp==3.9.5
+httpx==0.27.2
