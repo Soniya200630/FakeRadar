@@ -1,4 +1,4 @@
-# 🛡️ FakeRadar
+#  FakeRadar
 ### AI-Powered Misinformation Detector for Telegram
 
 > **"Aaj bhookamp aane wala hai"** — Your family group is full of it. FakeRadar fights back.
@@ -7,26 +7,26 @@ FakeRadar is a Telegram bot that instantly fact-checks suspicious news, viral me
 
 ---
 
-## 🌍 The Problem
+##  The Problem
 
 India is the #1 country for WhatsApp/Telegram misinformation globally. Fake news about health, politics, religion, and finance spreads through family groups every single day. Existing fact-checking websites require users to actively search — too much effort for most people. FakeRadar brings fact-checking **inside the chat**, where misinformation actually lives.
 
 ---
 
-## ✨ Features
+##  Features
 
-- 📸 **Image support** — Send a screenshot, bot reads and checks the text via OCR
-- 🔗 **URL support** — Forward a link, bot fetches and analyzes the article
-- 🎙️ **Voice note support** — Send audio, bot transcribes and fact-checks it
-- 🌐 **Live web search** — Checks against real-time news and trusted sources
-- 📊 **Credibility score** — 0–100 score with clear verdict
-- 🚩 **Red flag detection** — Highlights specific misleading claims
-- 🇮🇳 **Hindi + English** — Responds in the language of the input
-- ⚡ **10-second response** — Fast enough for real conversations
+-  **Image support** — Send a screenshot, bot reads and checks the text via OCR
+-  **URL support** — Forward a link, bot fetches and analyzes the article
+-  **Voice note support** — Send audio, bot transcribes and fact-checks it
+-  **Live web search** — Checks against real-time news and trusted sources
+-  **Credibility score** — 0–100 score with clear verdict
+-  **Red flag detection** — Highlights specific misleading claims
+-  **Hindi + English** — Responds in the language of the input
+-  **10-second response** — Fast enough for real conversations
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 User forwards message
@@ -48,7 +48,7 @@ Bot replies in Hindi or English with sources
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -63,7 +63,7 @@ Bot replies in Hindi or English with sources
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 fakereader/
@@ -108,7 +108,7 @@ python bot.py
 
 ---
 
-## 🔒 Security
+##  Security
 
 - Incoming files are never executed — only text is extracted and analyzed
 - File type validation rejects `.exe`, `.apk`, `.sh` and other executables
@@ -117,17 +117,17 @@ python bot.py
 
 ---
 
-## 🎯 Example Output
+##  Example Output
 
 ```
-🛡️ FakeRadar Analysis
+ FakeRadar Analysis
 
-📨 Claim: "Aaj bhookamp aane wala hai"
+ Claim: "Aaj bhookamp aane wala hai"
 
-📊 Credibility Score: 12/100
-🔴 Verdict: LIKELY FALSE
+ Credibility Score: 12/100
+ Verdict: LIKELY FALSE
 
-🚩 Red Flags:
+ Red Flags:
 • No date or location specified
 • No seismological agency cited
 • Identical message circulated in 2022 and 2024
