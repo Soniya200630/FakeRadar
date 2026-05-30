@@ -15,10 +15,8 @@ India is the #1 country for WhatsApp/Telegram misinformation globally. Fake news
 
 ##  Features
 
--  **Image support** — Send a screenshot, bot reads and checks the text via OCR
 -  **URL support** — Forward a link, bot fetches and analyzes the article
--  **Voice note support** — Send audio, bot transcribes and fact-checks it
--  **Live web search** — Checks against real-time news and trusted sources
+- **Live web search** — Checks against real-time news and trusted sources
 -  **Credibility score** — 0–100 score with clear verdict
 -  **Red flag detection** — Highlights specific misleading claims
 -  **Hindi + English** — Responds in the language of the input
@@ -31,9 +29,9 @@ India is the #1 country for WhatsApp/Telegram misinformation globally. Fake news
 ```
 User forwards message
         ↓
-Bot detects input type (text / image / URL / voice)
+Bot detects input type (text  / URL )
         ↓
-OCR / URL fetch / Speech-to-text (based on type)
+OCR / URL fetch 
         ↓
 AI extracts individual checkable claims
         ↓
@@ -53,10 +51,9 @@ Bot replies in Hindi or English with sources
 | Layer | Technology |
 |---|---|
 | **Bot Framework** | Python Telegram Bot API |
-| **AI / LLM** | Google Gemini API |
+| **AI / LLM** | Groq API|
 | **Web Search** | Google Search API / SerpAPI |
 | **OCR** | Tesseract / Google Vision API |
-| **Speech to Text** | Whisper API |
 | **Language** | Python 3.10+ |
 | **Environment** | python-dotenv |
 | **Dependencies** | requirements.txt |
